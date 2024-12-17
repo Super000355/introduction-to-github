@@ -1,0 +1,43 @@
+-- Nexus Fruits Auto Farm Script
+-- Nota: Use este script por sua conta e risco.
+
+local NexusFruits = {}
+
+-- Função de Auto Farm
+function NexusFruits.AutoFarm()
+    while true do
+        -- Código de auto farm
+        print("Auto farming...")
+        -- Adicione aqui o código para atacar inimigos e coletar XP
+        wait(1) -- Espera 1 segundo antes de repetir
+    end
+end
+
+-- Função para Coletar Itens
+function NexusFruits.CollectItems()
+    while true do
+        -- Código para coletar itens
+        print("Coletando itens...")
+        -- Adicione aqui o código para coletar itens no mapa
+        wait(1) -- Espera 1 segundo antes de repetir
+    end
+end
+
+-- Função para Coletar Frutas
+function NexusFruits.CollectFruits()
+    while true do
+        -- Código para coletar frutas
+        print("Coletando frutas...")
+        -- Adicione aqui o código para coletar frutas no mapa
+        wait(1) -- Espera 1 segundo antes de repetir
+    end
+end
+
+-- Iniciar Auto Farm
+spawn(NexusFruits.AutoFarm)
+-- Iniciar Coleta de Itens
+spawn(NexusFruits.CollectItems)
+-- Iniciar Coleta de Frutas
+spawn(NexusFruits.CollectFruits)
+
+print("Nexus Fruits Hub iniciado!")
